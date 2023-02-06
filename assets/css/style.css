@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --white: aliceblue;
+    --light-green: rgb(81, 165, 137);
+    --light-pink: rgb(197, 154, 196);
+}
+
+body {
+    background-color: black;
+    color: var(--light-pink);
+    font-weight: bold;
+}
+
+
+.header {
+    padding: 65px;
+    background-color: var(--light-green);
+    color: var(--white);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 60px;
+}
+
+#nav {
+    float: right;
+    margin-right: 60px;
+    margin-top: 70px;
+    font-size: 25px;
+}
+
+a:any-link {
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:hover  {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.header nav ul li {
+    list-style-type: none;
+    display: inline-table;
+    padding: 25px;
+}
+
+h2 {
+    padding-bottom: 50px;
+    font-size: 40px;
+    display: flow-root;
+}
+
+#my-photo {
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 15px;
+    border-radius: 25%;
+    float: right;
+    position: relative;
+    bottom: 100px;
+}
+
+.content {
+    display: block;
+    margin: 85px;
+}
+
+section {
+    padding: 70px;
+    border-left: 8px;
+    border-bottom: 8px;
+    border-right: 0;
+    border-top: 0;
+    border-color:var(--light-green);
+    border-style: dashed;
+}
+
+.text-content {
+    font-size: 20px;
+    flex-wrap: wrap;
+    white-space: normal;
+}
+
+#horiseon {
+    display: block;
+    max-width: 100%;
+    min-width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.placeholder-image { /* Would love some feedback on how to best place these images. I attempted placing them next to each other at least
+    for computer screen view, but it didn't quite work out */
+    max-width: 550px;
+    min-width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    color:var(--light-pink);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+
+    .header {
+        padding: 10px;
+    }
+
+    .header nav ul li {
+        padding: 10px;
+    }
+
+    #my-photo {
+        margin-top: 30px;
+        margin-right: 25px;
+        bottom: auto;
+    }
+
+    #nav {
+        margin-top: auto;
+        padding: 30px;
+        float: left;
+        font-size: 25px;
+    }
+
+    .content {
+        margin: 40px;
+    }
+
+}
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+    
+    .header {
+        padding: 20px;
+    }
+
+    #nav {
+        font-size: 30px;
+    }
+
+    .header nav ul li {
+        padding: 10px;
+        padding-top: 20px;
+    }
+
+    #my-photo {
+        margin-right: -100px;
+    }
+
+    .content {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 80px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .text-content{
+        font-size: 25px;
+    }
+}
