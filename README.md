@@ -12,11 +12,12 @@ N/A
 
 The site can be accessed at https://sandragruiz.github.io/sandra-g-portfolio/. As shown in the screenshot below, labeled navigation tools are provided in the top right corner; clicking on the desired topic will refer you to its' corresponding section with more information or links. Clicking on an image in the 'Work' section will open the website it portrays. All links are shown in white text. 
 
-screenshot here.
+![sandra-g-portfolio_ screenshot](https://user-images.githubusercontent.com/122563980/217144744-50cf47b7-0d58-460c-ac03-2d63e90a66ae.png)
 
 ## Credits
 
-N/A
+Full-Stack Blog
+https://coding-boot-camp.github.io/full-stack/
 
 ## License
 
