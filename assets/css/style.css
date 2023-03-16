@@ -90,7 +90,7 @@ section {
     white-space: normal;
 }
 
-#horiseon {
+.link-pic {
     display: block;
     max-width: 100%;
     min-width: 700px;
@@ -98,6 +98,10 @@ section {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+}
+
+#foodie {
+    max-width: 70%;
 }
 
 .placeholder-image { /* Would love some feedback on how to best place these images. I attempted placing them next to each other at least
